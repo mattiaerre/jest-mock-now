@@ -1,3 +1,3 @@
-# jest-mock-date
+# jest-mock-now
 
-jest-mock-date
+jest-mock-now

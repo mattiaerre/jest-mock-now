@@ -1,22 +1,22 @@
 {
-  "name": "jest-mock-date",
+  "name": "jest-mock-now",
   "version": "1.0.0-alpha.1",
-  "description": "jest-mock-date",
+  "description": "jest-mock-now",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattiaerre/jest-mock-date.git"
+    "url": "git+https://github.com/mattiaerre/jest-mock-now.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mattiaerre/jest-mock-date/issues"
+    "url": "https://github.com/mattiaerre/jest-mock-now/issues"
   },
-  "homepage": "https://github.com/mattiaerre/jest-mock-date#readme",
+  "homepage": "https://github.com/mattiaerre/jest-mock-now#readme",
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
