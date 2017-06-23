@@ -32,5 +32,10 @@
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4"
+  },
+  "jest": {
+    "setupFiles": [
+      "./setup-jest.js"
+    ]
   }
 }

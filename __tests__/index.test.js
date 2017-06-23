@@ -1,10 +1,15 @@
 const index = require('../');
+const { NOW } = require('../constants');
+
+test('Date.now() from `setup-jest` to match snapshot w/o options', () => {
+  expect(Date.now()).toEqual(NOW);
+  expect(Date.now()).toMatchSnapshot();
+});
 
 test('Date.now() to match snapshot w/o options', () => {
-  const _ = 1479427200000;
   index();
 
-  expect(Date.now()).toEqual(_);
+  expect(Date.now()).toEqual(NOW);
   expect(Date.now()).toMatchSnapshot();
 });
 
