@@ -1,7 +1,7 @@
 {
   "name": "jest-mock-now",
   "version": "1.0.0-alpha.1",
-  "description": "jest-mock-now",
+  "description": "Date.now() as deterministic Jest mock function.",
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
