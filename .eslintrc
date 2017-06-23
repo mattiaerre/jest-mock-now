@@ -5,5 +5,8 @@
   },
   "plugins": [
     "prettier"
-  ]
+  ],
+  "rules": {
+    "arrow-parens": "off"
+  }
 }
