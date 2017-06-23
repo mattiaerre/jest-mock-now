@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`oh noes! 1`] = `"oh noes!"`;
+exports[`Date.now() to match snapshot w/ options 1`] = `1498089600000`;
+
+exports[`Date.now() to match snapshot w/o options 1`] = `1479427200000`;

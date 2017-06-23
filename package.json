@@ -10,8 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/mattiaerre/jest-mock-now.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "date",
+    "jest",
+    "mock",
+    "now"
+  ],
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mattiaerre/jest-mock-now/issues"
