@@ -4,7 +4,14 @@
   "description": "jest-mock-now",
   "main": "index.js",
   "scripts": {
+    "precommit": "lint-staged",
     "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -28,10 +35,15 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-prettier": "^2.2.0",
     "eslint-plugin-import": "^2.5.0",
     "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-react": "^7.1.0",
-    "jest": "^20.0.4"
+    "husky": "^0.14.0",
+    "jest": "^20.0.4",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.4.4"
   },
   "jest": {
     "setupFiles": [
