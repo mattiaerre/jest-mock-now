@@ -27,3 +27,9 @@ require('jest-mock-now')(now);
 
 console.log(Date.now()); // 1498089600000
 ```
+
+If you need to restore the original `Date.now()` method, you can call `mockRestore()`.
+
+```javascript
+Date.now.mockRestore();
+```
