@@ -20,3 +20,10 @@ test('Date.now() to match snapshot w/ options', () => {
   expect(Date.now()).toEqual(now.getTime());
   expect(Date.now()).toMatchSnapshot();
 });
+
+test('Date.now, as a mock function, exposes mockRestore()', () => {
+  const mocked = Date.now();
+  Date.now.mockRestore();
+  const real = Date.now();
+  expect(real).toBeGreaterThan(mocked);
+});
