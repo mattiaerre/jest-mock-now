@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-➜ ~ npm install -save-dev jest-mock-now
+➜ ~ npm install --save-dev jest-mock-now
 ```
 
 ## Usage
