@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-➜ ~ yarn add jest-mock-now -D
+➜ ~ npm install -save-dev jest-mock-now
 ```
 
 ## Usage
