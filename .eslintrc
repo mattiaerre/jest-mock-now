@@ -3,9 +3,7 @@
   "env": {
     "jest": true
   },
-  "plugins": [
-    "prettier"
-  ],
+  "plugins": ["prettier"],
   "rules": {
     "arrow-parens": "off"
   }
