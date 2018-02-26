@@ -13,6 +13,12 @@ test('Date.now() to match snapshot w/o options', () => {
   expect(Date.now()).toMatchSnapshot();
 });
 
+test('init function returns the used `now` value', () => {
+  expect(index()).toEqual(NOW);
+  const now = new Date('2017-06-22');
+  expect(index(now)).toEqual(now.getTime());
+});
+
 test('Date.now() to match snapshot w/ options', () => {
   const now = new Date('2017-06-22');
   index(now);
