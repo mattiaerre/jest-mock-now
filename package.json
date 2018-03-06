@@ -1,6 +1,6 @@
 {
   "name": "jest-mock-now",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Date.now() as deterministic Jest mock function.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,8 @@
   ],
   "author": {
     "name": "Mattia Richetto",
-    "email": "mattia.richetto@gmail.com"
+    "email": "mattia.richetto@gmail.com",
+    "url": "https://mattiaerre.github.io/"
   },
   "license": "MIT",
   "bugs": {
@@ -48,5 +49,12 @@
     "setupFiles": [
       "./setup-jest.js"
     ]
-  }
+  },
+  "contributors": [
+    {
+      "name": "danigb",
+      "email": "danigb@gmail.com",
+      "url": "https://github.com/danigb"
+    }
+  ]
 }
