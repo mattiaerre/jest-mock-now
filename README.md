@@ -25,6 +25,13 @@ const now = new Date('2017-06-22');
 
 console.log(Date.now()); // 149808960000
 ```
+To set the proper date include the time stamp in the string, otherwise jest-mock-now will set the date for the prior date at midnight (i.e. 2017-06-21 00:00:00).
+
+```javascript
+const jestMockNow = require('jest-mock-now');
+const now = new Date('2017-06-22 00:00:01'); // add 00:00:01 to the Date string parameter
+jestMockNow(now);
+```
 
 The `jest-mock-now` function returns the timestamp used to mock the `Date.now` method:
 
